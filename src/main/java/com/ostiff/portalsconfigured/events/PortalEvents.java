@@ -22,8 +22,6 @@ import net.minecraft.world.level.portal.PortalShape;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
-import java.util.Optional;
-
 public class PortalEvents {
     /**
      * Intercepts right-click interactions to:
@@ -114,7 +112,6 @@ public class PortalEvents {
     /**
      * Checks both portal orientations (X and Z axis) for a valid frame at the given position.
      * Returns the first valid PortalShape found, or null if none.
-     *
      * Note: PortalShapeMixin patches PortalShape to accept the configured frame block,
      * so vanilla's frame scanning logic works transparently here.
      */
@@ -124,9 +121,8 @@ public class PortalEvents {
         if (xShape.isPresent()) return xShape.get();
 
         java.util.Optional<PortalShape> zShape = PortalShape.findEmptyPortalShape(level, pos, net.minecraft.core.Direction.Axis.Z);
-        if (zShape.isPresent()) return zShape.get();
+        return zShape.orElse(null);
 
-        return null;
     }
 
     /**
