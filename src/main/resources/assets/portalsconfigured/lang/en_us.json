@@ -1,0 +1,13 @@
+{
+  "itemGroup.portalsconfigured": "Example Mod Tab",
+  "block.portalsconfigured.example_block": "Example Block",
+  "item.portalsconfigured.example_item": "Example Item",
+
+  "portalsconfigured.configuration.title": "PortalsConfigured Configs",
+  "portalsconfigured.configuration.section.portalsconfigured.common.toml": "PortalsConfigured Configs",
+  "portalsconfigured.configuration.section.portalsconfigured.common.toml.title": "PortalsConfigured Configs",
+  "portalsconfigured.configuration.items": "Item List",
+  "portalsconfigured.configuration.logDirtBlock": "Log Dirt Block",
+  "portalsconfigured.configuration.magicNumberIntroduction": "Magic Number Text",
+  "portalsconfigured.configuration.magicNumber": "Magic Number"
+}

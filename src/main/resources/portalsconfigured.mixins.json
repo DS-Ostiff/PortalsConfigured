@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.ostiff.portalsconfigured.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PortalForcerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
