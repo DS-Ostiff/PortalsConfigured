@@ -18,7 +18,7 @@ Examples:
 
 Curseforge: https://www.curseforge.com/minecraft/mc-mods/portalsconfigured
 
-Modrinth: 
+Modrinth: https://modrinth.com/mod/portalsconfigured
 
 ## Use
 Feel free to use in any modpack without permission needed
