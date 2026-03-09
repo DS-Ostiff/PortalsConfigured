@@ -16,7 +16,7 @@ Examples:
 
 ## Download
 
-Curseforge: 
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/portalsconfigured
 
 Modrinth: 
 
